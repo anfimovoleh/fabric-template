@@ -6,7 +6,7 @@ CHANNEL_NAME=$1
 : ${CHANNEL_NAME:="mych"}
 echo $CHANNEL_NAME
 
-export PATH=$GOPATH/src/github.com/hyperledger/fabric/build/bin:${PWD}/bin:${PWD}:$PATH
+export PATH=$GOPATH/src/github.com/hyperledger/fabric/.build/bin:${PWD}/bin:${PWD}:$PATH
 export FABRIC_CFG_PATH=$PWD/network
 echo
 
